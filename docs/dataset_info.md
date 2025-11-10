@@ -88,6 +88,6 @@ The full NSL-KDD test set including attack-type labels and difficulty level in C
 
 **dst_host_srv_rerror_rate** - Percentage of connections with REJ errors for the same service on the destination host.
 
-**🎯 attack_type** - **LABEL COLUMN** - The type of network attack (e.g., "normal", "neptune", "smurf", "portsweep") or normal traffic; this is what you're trying to predict.
+**🎯 attack_type** - **LABEL COLUMN** - The type of network attack (e.g., "normal", "neptune", "smurf", "portsweep") or normal traffic
 
 **difficulty_level** - Difficulty level of detecting the attack instance (only present in some NSL-KDD files, can be removed if your file has 42 columns instead of 43).
